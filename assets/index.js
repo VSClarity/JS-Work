@@ -1,14 +1,14 @@
 // 1
 let a = 5;
 let b = 2;
-let sum_ab = a * b;
-console.log(sum_ab);
+let multiply_ab = a * b;
+console.log(multiply_ab);
 
 // 2
 let c = 10;
 let d = 2;
-let sum_cd = c / d;
-console.log(sum_cd);
+let division_cd = c / d;
+console.log(division_cd);
 
 // 3
 let e = 'abc';
@@ -17,17 +17,16 @@ let sum_ef = e + f;
 console.log(sum_ef);
 
 // 4
-let lol = 11;
-let lolz = true;
-let text = "java script";
-let textValue = "100";
-console.log(typeof lol);
-console.log(typeof lolz);
-console.log(typeof text);
+let numValue = 11;
+let booleanValue = true;
+let textValue = "java script";
+let textValueNumber = "100";
+console.log(typeof numValue);
+console.log(typeof booleanValue);
 console.log(typeof textValue);
+console.log(typeof textValueNumber);
 
 // 5
-
 let num = 1;
 num += 11;
 num -= 11;
@@ -42,10 +41,10 @@ let resultQuestion = questionUser ** 2;
 alert(resultQuestion);
 
 // 2.2
-let numUser = Number(prompt("Введите первое число"));
-let numUser_2 = Number(prompt("Введите второе число"));
-let numUserSum = (numUser + numUser_2) / 2;
-alert(numUserSum);
+let inputNumUser = Number(prompt("Введите первое число"));
+let inputNumUser_2 = Number(prompt("Введите второе число"));
+let outputNumUserSum = (numUser + numUser_2) / 2;
+alert(outputNumUserSum);
 
 // 2.3
 let min_sec_User = Number(prompt("Введите кол-во минут"));
